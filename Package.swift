@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "sdk_ios",
     platforms: [
-        .iOS(.v18.4)
+        .iOS(.v15)
     ],
     products: [
         .library(
