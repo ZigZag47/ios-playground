@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "sdk_ios",
             url: "https://zigzag47.github.io/ios-playground/sdk_ios.xcframework.zip",
-            checksum: "2b147cea691b3b5be207e2bec05db780febf7d67fa24d203aaaca2bf1ed7fd82"
+            checksum: "b73b2ac19b5564da113369b5f4e117109d59ef10cf2fd7b8131f3849015921ca"
         )
     ]
 )
