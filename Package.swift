@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "sdk_ios",
+    name: "testSdk",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "sdk_ios",
-            targets: ["sdk_ios"]
+            name: "testSdk",
+            targets: ["testSdk"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "sdk_ios",
-            url: "https://zigzag47.github.io/ios-playground/sdk_ios.xcframework.zip",
-            checksum: "b73b2ac19b5564da113369b5f4e117109d59ef10cf2fd7b8131f3849015921ca"
+            name: "testSdk",
+            url: "https://zigzag47.github.io/ios-playground/testSdk.xcframework.zip",
+            checksum: "fa0689fed07cb60234e247c3391e354782f5524df89e6dda3a807e6079ed21c9"
         )
     ]
 )
