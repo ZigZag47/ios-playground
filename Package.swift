@@ -1,22 +1,22 @@
-// swift-tools-version:6.1
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
-    name: "testSdk",
+    name: "biqSdk",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "testSdk",
-            targets: ["testSdk"]
+            name: "biqSdk",
+            targets: ["biqSdk"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "testSdk",
-            url: "https://zigzag47.github.io/ios-playground/testSdk.xcframework.zip",
-            checksum: "f8ee7c0e62f9d3a293324c3d356aab19e236034bb991412e88a89e44caadd608"
+            name: "biqSdk",
+            url: "https://zigzag47.github.io/ios-playground/biqSdk.xcframework.zip",
+            checksum: "be711a156a647d2820e609e96c2863d4dfcf88c01ad6f1d73ecaa14689dfc8a1"
         )
     ]
 )
